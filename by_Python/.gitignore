@@ -1,0 +1,8 @@
+analyze_data/
+file/
+split_file/
+venv/
+
+__pycache__/
+.idea/
+.DS_Store/
