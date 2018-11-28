@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee63c3e-c114-41ee-9183-8dceff12c8b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/by_Python/structural-pattern/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/by_Python/structural-pattern/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" beforeDir="false" afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,14 +23,34 @@
     <SUITE FILE_PATH="coverage/Design_Pattern$flyweight.coverage" NAME="flyweight Coverage Results" MODIFIED="1542251047858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1541994025451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/construction-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1542003411758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
+    <SUITE FILE_PATH="coverage/Design_Pattern$command.coverage" NAME="command Coverage Results" MODIFIED="1543373294796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
+    <SUITE FILE_PATH="coverage/Design_Pattern$chain_of_responsbility.coverage" NAME="chain of responsbility Coverage Results" MODIFIED="1543371894480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="proxy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proxy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="378">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chain of responsbility.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="command.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -60,6 +82,8 @@
         <option value="$PROJECT_DIR$/by_Python/structural-pattern/flyweight.py" />
         <option value="$PROJECT_DIR$/by_Python/structural-pattern/MVC.py" />
         <option value="$PROJECT_DIR$/by_Python/structural-pattern/proxy.py" />
+        <option value="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" />
+        <option value="$PROJECT_DIR$/by_Python/behavior-pattern/command.py" />
       </list>
     </option>
   </component>
@@ -97,6 +121,12 @@
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
               <item name="by_Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="by_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="behavior-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -142,26 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.proxy">
-    <configuration name="Appearance" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Design_Pattern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/structural-pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/structural-pattern/Appearance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.command">
     <configuration name="MVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +192,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chain of responsbility" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,12 +200,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/structural-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/structural-pattern/decorator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Design_Pattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/command.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,19 +269,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.decorator" />
-      <item itemvalue="Python.Appearance" />
       <item itemvalue="Python.flyweight" />
       <item itemvalue="Python.MVC" />
       <item itemvalue="Python.proxy" />
+      <item itemvalue="Python.chain of responsbility" />
+      <item itemvalue="Python.command" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.command" />
+        <item itemvalue="Python.chain of responsbility" />
         <item itemvalue="Python.proxy" />
         <item itemvalue="Python.MVC" />
         <item itemvalue="Python.flyweight" />
-        <item itemvalue="Python.Appearance" />
-        <item itemvalue="Python.decorator" />
       </list>
     </recent_temporary>
   </component>
@@ -270,16 +300,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="23" width="958" height="993" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26548672" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20132743" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2703549" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2682672" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -302,13 +331,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/construction-pattern/builder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
           <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -316,9 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,9 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,9 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,9 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
           <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,9 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -400,9 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -410,9 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -430,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
           <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,9 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
           <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,21 +506,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/construction-pattern/prototype.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/construction-pattern/factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="922">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,9 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
           <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,9 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,9 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,8 +604,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="378">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
