@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee63c3e-c114-41ee-9183-8dceff12c8b1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/interpreter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" beforeDir="false" afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +19,7 @@
     <SUITE FILE_PATH="coverage/Design_Pattern$adapter.coverage" NAME="adapter Coverage Results" MODIFIED="1542003166238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$Appearance.coverage" NAME="Appearance Coverage Results" MODIFIED="1542075287874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$MVC.coverage" NAME="MVC Coverage Results" MODIFIED="1542260446703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
+    <SUITE FILE_PATH="coverage/Design_Pattern$interpreter.coverage" NAME="interpreter Coverage Results" MODIFIED="1543461046335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$flyweight.coverage" NAME="flyweight Coverage Results" MODIFIED="1542251047858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1541994025451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/construction-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1542003411758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
@@ -46,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="command.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="command.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="715">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interpreter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/interpreter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2478">
+              <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -84,6 +93,7 @@
         <option value="$PROJECT_DIR$/by_Python/structural-pattern/proxy.py" />
         <option value="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" />
         <option value="$PROJECT_DIR$/by_Python/behavior-pattern/command.py" />
+        <option value="$PROJECT_DIR$/by_Python/behavior-pattern/interpreter.py" />
       </list>
     </option>
   </component>
@@ -148,6 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shixu/PycharmProjects/Design_Pattern/by_Python/behavior-pattern/interpreter.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -172,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.command">
+  <component name="RunManager" selected="Python.interpreter">
     <configuration name="MVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,7 +241,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="flyweight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,12 +249,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/structural-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/structural-pattern/flyweight.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/interpreter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,19 +280,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.flyweight" />
       <item itemvalue="Python.MVC" />
       <item itemvalue="Python.proxy" />
       <item itemvalue="Python.chain of responsbility" />
       <item itemvalue="Python.command" />
+      <item itemvalue="Python.interpreter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.interpreter" />
         <item itemvalue="Python.command" />
         <item itemvalue="Python.chain of responsbility" />
         <item itemvalue="Python.proxy" />
         <item itemvalue="Python.MVC" />
-        <item itemvalue="Python.flyweight" />
       </list>
     </recent_temporary>
   </component>
@@ -304,11 +315,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20132743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2721239" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2682672" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2546973" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -331,6 +342,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -618,8 +671,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/command.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="715">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/interpreter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
         </state>
       </provider>
     </entry>
