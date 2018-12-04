@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee63c3e-c114-41ee-9183-8dceff12c8b1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/by_Python/behavior-pattern/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +20,14 @@
     <SUITE FILE_PATH="coverage/Design_Pattern$Appearance.coverage" NAME="Appearance Coverage Results" MODIFIED="1542075287874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1541994025451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/construction-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$state.coverage" NAME="state Coverage Results" MODIFIED="1543822563005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
+    <SUITE FILE_PATH="coverage/Design_Pattern$template.coverage" NAME="template Coverage Results" MODIFIED="1543891400175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$proxy.coverage" NAME="proxy Coverage Results" MODIFIED="1542608834658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$adapter.coverage" NAME="adapter Coverage Results" MODIFIED="1542003166238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$MVC.coverage" NAME="MVC Coverage Results" MODIFIED="1542260446703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$interpreter.coverage" NAME="interpreter Coverage Results" MODIFIED="1543461046335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$flyweight.coverage" NAME="flyweight Coverage Results" MODIFIED="1542251047858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1542003411758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/structural-pattern" />
+    <SUITE FILE_PATH="coverage/Design_Pattern$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1543890210196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$command.coverage" NAME="command Coverage Results" MODIFIED="1543373294796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
     <SUITE FILE_PATH="coverage/Design_Pattern$chain_of_responsbility.coverage" NAME="chain of responsbility Coverage Results" MODIFIED="1543371894480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/by_Python/behavior-pattern" />
   </component>
@@ -33,15 +36,19 @@
       <file leaf-file-name="state.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/state.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state relative-caret-position="1197">
+              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strategy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="template.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/template.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -77,6 +84,7 @@
         <option value="$PROJECT_DIR$/by_Python/behavior-pattern/observer.py" />
         <option value="$PROJECT_DIR$/by_Python/behavior-pattern/state.py" />
         <option value="$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py" />
+        <option value="$PROJECT_DIR$/by_Python/behavior-pattern/template.py" />
       </list>
     </option>
   </component>
@@ -90,9 +98,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="932" />
+    <option name="x" value="771" />
     <option name="y" value="23" />
-    <option name="width" value="958" />
+    <option name="width" value="1119" />
     <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -103,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,45 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.state">
-    <configuration name="chain of responsbility" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Design_Pattern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="command" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Design_Pattern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/command.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.template">
     <configuration name="interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,20 +232,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="strategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Design_Pattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="template" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Design_Pattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/by_Python/behavior-pattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/by_Python/behavior-pattern/template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.chain of responsbility" />
-      <item itemvalue="Python.command" />
       <item itemvalue="Python.interpreter" />
       <item itemvalue="Python.observer" />
       <item itemvalue="Python.state" />
+      <item itemvalue="Python.strategy" />
+      <item itemvalue="Python.template" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.template" />
+        <item itemvalue="Python.strategy" />
         <item itemvalue="Python.state" />
         <item itemvalue="Python.observer" />
         <item itemvalue="Python.interpreter" />
-        <item itemvalue="Python.command" />
-        <item itemvalue="Python.chain of responsbility" />
       </list>
     </recent_temporary>
   </component>
@@ -293,8 +301,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="932" y="23" width="958" height="993" extended-state="0" />
-    <editor active="true" />
+    <frame x="771" y="23" width="1119" height="993" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -303,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29123172" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23503128" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -326,13 +333,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/by_Python/structural-pattern/proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/chain of responsbility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -655,13 +655,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="1197">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/strategy.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/by_Python/behavior-pattern/template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
